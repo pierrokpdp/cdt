@@ -1,0 +1,376 @@
+
+@font-face {
+  font-family: 'Zelda'; /* nom que vous donnez à la police */
+  src: url('file:///Users/pierrokpdp/Desktop/DOCTYPE/PAGES/TYPO/ZeldaDXTTBRK.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Baskerville'; /* nom que vous donnez à la police */
+  src: url('file:///Users/pierrokpdp/Desktop/DOCTYPE/PAGES/TYPO/LibreBaskerville-Regular.ttf') format('truetype');
+}
+
+div {
+  font-family: 'Zelda', sans-serif;
+    text-align: center;
+  }
+
+  img.logo {
+    padding-top: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+  }
+
+
+
+    header {
+      display: flex;
+      align-items: center;
+      background-color: #000;
+    }
+
+body {
+  margin: 0;
+  font-family: 'Zelda', sans-serif;
+    background:rgb(0, 0, 0);
+}
+main {
+  padding-top: 25px;
+  font-family: 'Zelda', sans-serif;
+    background:rgb(0, 0, 0);
+}
+footer {
+margin-top: 5px;
+  justify-content: space-between;
+  align-items: center;
+    position:static;
+    background:rgb(0, 0, 0);
+}
+
+h1 {
+  font-family: 'Zelda', sans-serif;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    font-size: 1,3em;
+  }
+  h2 {
+    font-size: 0,5em;
+    text-align: center;
+    color: rgb(255, 255, 255);
+  }
+  p {
+    font-family: 'Baskerville';
+    margin-bottom: 75px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+  }
+  ul {
+
+    list-style: ethiopic-numeric;
+  }
+
+  
+  .liste {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+  }
+  .liste li {
+    display: block;
+    min-width: 5em;
+    margin: 0 0.5em;
+  }
+  .liste a {
+    text-decoration: none;
+    display: block;
+    font-family:Arial;
+    position: relative;
+    color: rgb(255, 255, 255);
+    padding:.5em 0
+  }
+  .liste a:hover {
+    color: #8132ff;
+  }
+  
+
+
+.masque {
+    height: 100px;
+    width: 100px;
+}
+
+
+.clock-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.clock {
+  text-align: right;
+  color: #ffffff;
+  font-size: 30px;
+  font-family: 'Zelda', sans-serif;
+}
+
+h1 {
+  margin-right: 20px;
+}
+
+
+#map {
+  display: flex;
+  justify-content: center;
+  width: 25%;
+  height: 400px;
+  background: #000000;
+  margin: 0 auto;
+}
+
+.video {
+  margin-left: 70px;
+  display: flex;
+  justify-content: center; /* pour centrer horizontalement */ /* pour centrer verticalement */
+
+}
+
+.piano {
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo {
+  width: 75px;
+  height: 75px;
+}
+
+.luneoff {
+  width: 200px;
+  height: 200px;
+  border: none;
+  display: flex;
+  background: url("file:///Users/pierrokpdp/Desktop/DOCTYPE/PAGES/images/LUNEBLEUE.png") no-repeat center center;
+  background-size: contain;
+  margin-left: 20px;
+}
+
+.displayboutons {
+  display: flex;
+  align-items: center;
+}
+
+.luneon {
+  width: 200px;
+  height: 200px;
+  border: none;
+  display: flex;
+  background: url("file:///Users/pierrokpdp/Desktop/DOCTYPE/PAGES/images/LUNEBLEUE.png") no-repeat center center;
+  background-size: contain;
+  margin-right: 20px;
+}
+
+.soleiloff {
+  width: 200px;
+  height: 200px;
+  border: none;
+  display: flex;
+  background: url("file:///Users/pierrokpdp/Desktop/DOCTYPE/PAGES/images/soleiljaune.png") no-repeat center center;
+  background-size: contain;
+  margin-left: 20px;
+}
+
+.soleilon {
+  width: 200px;
+  height: 200px;
+  border: none;
+  display: flex;
+  background: url("file:///Users/pierrokpdp/Desktop/DOCTYPE/PAGES/images/soleiljaune.gif") no-repeat center center;
+  background-size: contain;
+  margin-left: 20px;
+}
+
+#image {
+  width: 200px;
+  height: 200px;
+  border: none;
+  position: relative;
+  top: 0;
+  right: -200px; /* ajustez cette valeur selon votre besoin */
+}
+
+
+
+
+
+.key1 { 
+  border: none;
+  display: flex;
+  height: 65px;
+  width: 656px;
+  background: url("file:///Users/pierrokpdp/Desktop/DOCTYPE/PAGES/images/touches/toucheblanchebas.png");
+  margin-right: 5px;
+  margin: 0 auto;
+  position: relative; /* pour positionner l'image relative au bouton */
+}
+
+      .key1-imageN {
+        background: url("file:///Users/pierrokpdp/Desktop/DOCTYPE/PAGES/images/touches/7NC.png") no-repeat;
+        background-size: contain;
+        width: 50px;
+        height: 65px;
+        position: absolute;
+        top: 605px;
+        right: 370px;
+      }
+
+.key1.active{
+  display: flex;
+	height: 68px;
+	width: 656px;
+  background: url("file:///Users/pierrokpdp/Desktop/DOCTYPE/PAGES/images/touches/touchebleue2.gif");
+	margin-right: 5px;
+  margin: 0 auto;
+}
+
+
+.key2 {
+  border : none;
+  display: flex;
+	height: 65px;
+	width: 656px;
+  background: url("file:///Users/pierrokpdp/Desktop/DOCTYPE/PAGES/images/touches/toucheblanche1.png");
+	margin-right: 5px;
+  margin: 0 auto;
+}
+.key2.active{
+  display: flex;
+	height: 68px;
+	width: 656px;
+  background: url("file:///Users/pierrokpdp/Desktop/DOCTYPE/PAGES/images/touches/touchejaune.gif");
+	margin-right: 5px;
+  margin: 0 auto;
+}
+
+.key3 {
+  border : none;
+  display: flex;
+	height: 65px;
+	width: 656px;
+  background: url("file:///Users/pierrokpdp/Desktop/DOCTYPE/PAGES/images/touches/toucheblanche1.png");
+	margin-right: 5px;
+  margin: 0 auto;
+}
+.key3.active{
+  display: flex;
+	height: 68px;
+	width: 656px;
+  background: url("file:///Users/pierrokpdp/Desktop/DOCTYPE/PAGES/images/touches/touchebleue2.gif");
+  margin: 0 auto;
+  transition: background 0.1s ease-in-out;
+}
+
+.key4 {
+  border : none;
+  display: flex;
+	height: 68px;
+	width: 656px;
+  background: url("file:///Users/pierrokpdp/Desktop/DOCTYPE/PAGES/images/touches/toucheblanche1.png");
+  margin-right: 5px;
+  margin: 0 auto;
+}
+.key4.active{
+  display: flex;
+	height: 68px;
+	width: 656px;
+  background: url("file:///Users/pierrokpdp/Desktop/DOCTYPE/PAGES/images/touches/touchejaune.gif");
+	margin-right: 5px;
+  margin: 0 auto;
+  transition: background 0.1s ease-in-out;
+}
+
+.key5 {
+  border : none;
+  display: flex;
+	height: 68px;
+	width: 656px;
+  background: url("file:///Users/pierrokpdp/Desktop/DOCTYPE/PAGES/images/touches/toucheblanche1.png");
+	margin-right: 5px;
+  margin: 0 auto;
+}
+.key5.active{
+  display: flex;
+	height: 68px;
+	width: 656px;
+  background: url("file:///Users/pierrokpdp/Desktop/DOCTYPE/PAGES/images/touches/touchebleue2.gif");
+	margin-right: 5px;
+  margin: 0 auto;
+  transition: background 0.1s ease-in-out;
+}
+
+.key6 {
+  border : none;
+  display: flex;
+	height: 68px;
+	width: 656px;
+  background: url("file:///Users/pierrokpdp/Desktop/DOCTYPE/PAGES/images/touches/toucheblanche1.png");
+	margin-right: 5px;
+  margin: 0 auto;
+}
+.key6.active{
+  display: flex;
+	height: 68px;
+	width: 656px;
+  background: url("file:///Users/pierrokpdp/Desktop/DOCTYPE/PAGES/images/touches/touchejaune.gif");
+	margin-right: 5px;
+  margin: 0 auto;
+  transition: background 0.1s ease-in-out;
+}
+
+.key7 {
+  border : none;
+  display: flex;
+	height: 65px;
+	width: 656px;
+  background: url("file:///Users/pierrokpdp/Desktop/DOCTYPE/PAGES/images/touches/toucheblanche1.png");
+	margin-right: 5px;
+  margin: 0 auto;
+}
+.key7.active{
+  display: flex;
+	height: 68px;
+	width: 656px;
+  background: url("file:///Users/pierrokpdp/Desktop/DOCTYPE/PAGES/images/touches/touchebleue2.gif");
+	margin-right: 5px;
+  margin: 0 auto;
+  transition: background 0.1s ease-in-out;
+}
+
+.key8 {
+  border : none;
+  display: flex;
+	height: 68px;
+	width: 656px;
+  background: url("file:///Users/pierrokpdp/Desktop/DOCTYPE/PAGES/images/touches/toucheblanchehaut.png");
+	margin-right: 5px;
+  margin: 0 auto;
+}
+.key8.active{
+  display: flex;
+	height: 68px;
+	width: 656px;
+  background: url("file:///Users/pierrokpdp/Desktop/DOCTYPE/PAGES/images/touches/touchejaune.gif");
+	margin-right: 5px;
+  margin: 0 auto;
+  transition: background 0.1s ease-in-out;
+}
+
+.next {
+  border : none;
+  display: flex;
+	height: 68px;
+	width: 656px;
+  background: url("file:///Users/pierrokpdp/Desktop/DOCTYPE/PAGES/images/touches/touchenext.png");
+  margin-right: 5px;
+  margin: 0 auto;
+}
